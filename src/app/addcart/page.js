@@ -2,7 +2,7 @@
 
 import React from 'react';
 import NavigationBar from '@/app/components/NavigationBar';
-import { useCart } from '@/context/CartContext';
+import { useCart } from '../../../src/app/context/CartContext.js';
 import Image from 'next/image';
 import Link from 'next/link';
 
