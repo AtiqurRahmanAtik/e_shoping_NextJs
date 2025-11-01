@@ -12,7 +12,7 @@ import { IoCallSharp } from "react-icons/io5";
 import { MdNewspaper } from "react-icons/md";
 import { TiArrowSortedDown } from "react-icons/ti";
 import Link from 'next/link';
-import { useCart } from '../context/CartContext';
+import { useCart } from '../../app/context/CartContext.js';
 
 
 const geist = Geist({

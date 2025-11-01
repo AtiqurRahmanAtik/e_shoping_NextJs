@@ -1,7 +1,7 @@
 "use client"
 
 import NavigationBar from '@/app/components/NavigationBar';
-import { useCart } from '@/app/context/CartContext';
+import { useCart } from '/src/app/context/CartContext.js';
 import Image from 'next/image';
 import React, { useState, useEffect } from 'react';
 import { FaStar } from "react-icons/fa";
