@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import { useCart } from '/src/app/components/Product.jsx';
+import { useCart } from '/src/app/context/CartContext.js';
 
 
 const Product = ({ item }) => {
